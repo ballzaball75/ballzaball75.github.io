@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <style>
-        /* ทำให้ body ใช้ flexbox เพื่อจัดรูปภาพกลาง */
         body {
             display: flex;
-            justify-content: center; /* จัดให้อยู่กลางแนวนอน */
-            align-items: center;     /* จัดให้อยู่กลางแนวตั้ง */
-            height: 100vh;           /* ใช้ความสูงทั้งหมดของหน้าจอ */
-            margin: 0;               /* เอาขอบออก */
-            background-color: #708090; /* สีพื้นหลัง */
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #708090;
+            height: 100vh;  /* ทำให้ความสูงเต็มหน้าจอ */
+        }
+        img {
+            max-width: 60%;  /* ปรับขนาดภาพให้พอดีกับขนาดหน้าจอ */
+            height: auto;     /* ให้ความสูงของภาพสัมพันธ์กับความกว้าง */
         }
     </style>
 </head>
 <body>
-    <img src="https://ballzaball75.github.io/Resume1.png" alt="My Image" width="60%">
+    <img src="https://ballzaball5.github.io/Resume1.png" alt="My Image" id="image">
 </body>
 </html>
