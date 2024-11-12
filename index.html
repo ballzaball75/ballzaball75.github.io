@@ -1,21 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <style>
-        /* ทำให้ body ใช้ flexbox เพื่อจัดรูปภาพกลาง */
-        body {
-            display: flex;
-            justify-content: center; /* จัดให้อยู่กลางแนวนอน */
-            align-items: center;     /* จัดให้อยู่กลางแนวตั้ง */
-            background-color: #708090; /* สีพื้นหลัง */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="https://ballzaball75.github.io/Resume1.png" alt="My Image" width="60%">
+    <div class="resume-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile" class="profile-img">
+                <h1>ชัยวัฒน์ ปิ่นนา</h1>
+                <p>Programmer</p>
+            </div>
+            <div class="about">
+                <h2>About Me</h2>
+                <p>ชื่อ: ชัยวัฒน์ ปิ่นนา</p>
+                <p>ชื่อเล่น: บอล</p>
+                <p>วันเกิด: 8 กันยายน 2004</p>
+                <p>อายุ: 20 ปี</p>
+                <p>โทร: 098-8090845</p>
+                <p>อีเมล: ballzaball75@gmail.com</p>
+                <p>ที่อยู่: 449 หมู่ 1 ต.แม่เย็น อ.แม่สรวย จ.เชียงราย 57130</p>
+            </div>
+            <div class="goal">
+                <h2>My Goal</h2>
+                <p>
+                    เป้าหมายของผมคือการได้พัฒนาสกิลความเชี่ยวชาญด้านเทคนิคต่างๆ เพื่อที่จะสามารถแก้ปัญหาต่างๆ ได้อย่างมีประสิทธิภาพ และส่งต่อผลงานที่มีคุณภาพที่สุด
+                </p>
+            </div>
+            <div class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>2019 - โรงเรียนบ้านสันทราย</li>
+                    <li>2022 - โรงเรียนแม่สรวยวิทยาคม</li>
+                    <li>2023 - มหาวิทยาลัยพะเยา</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="section">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>มีความรู้พื้นฐานเกี่ยวกับภาษา Python, Java, C</li>
+                    <li>มีความรู้พื้นฐานเกี่ยวกับ Microsoft Office (Word, PowerPoint)</li>
+                    <li>มีความรู้พื้นฐานเกี่ยวกับ Figma, Canva</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>สามารถทำงานร่วมกับทีมได้ดี</li>
+                    <li>จัดการเวลาได้ดี</li>
+                    <li>สามารถสื่อสารให้เข้าใจตรงกันได้</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Language Skills</h2>
+                <ul>
+                    <li>ไทย</li>
+                    <li>English (Basic)</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Certifications & Achievements</h2>
+                <ul>
+                    <li>User Experience Design for Mobile Application Development | มหาวิทยาลัยมหิดล | 2024</li>
+                    <li>Oracle Java Foundations | Oracle | 2024</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
 </html>
